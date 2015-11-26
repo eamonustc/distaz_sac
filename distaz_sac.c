@@ -12,8 +12,8 @@
 #include <errno.h>
 
 
-#include "./include/mach.h"
-#include "./include/ucf.h"
+#include "mach.h"
+#include "ucf.h"
 
 /** 
  * Compute the distance and azimuth between locations
