@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 	double the, phe;
 	double ths, phs;
 	if (argc != 5) {
-	printf("Usage: distaz evt_lat evt_lon sta_lat sta_lon\n");
+	printf("Usage: distaz_sac evt_lat evt_lon sta_lat sta_lon\n");
 	printf("       Returns:  Delta Baz Az\n");
 	exit(1);
 	} else {
