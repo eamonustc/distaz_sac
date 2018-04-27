@@ -11,10 +11,6 @@
 #include <float.h>
 #include <errno.h>
 
-
-#include "mach.h"
-#include "ucf.h"
-
 /** 
  * Compute the distance and azimuth between locations
  * 
@@ -117,7 +113,8 @@ int main(int argc, char *argv[])
 	 tanthi, tanthk, temp, therad, thg, thsrad, u1, u1bot, u2, u2bot, 
 	 u2top, v1, v2, x2, y2, z1, z2;
 
-
+        static double TODEG = 57.2957795;
+        static double TORAD = 0.017453293;
 	static double rad = 6378.160;  /* Earth Radius */
 	static double fl = 0.00335293; /* Earth Flattening */
 	static double twopideg = 360.; /* Two Pi in Degrees */
